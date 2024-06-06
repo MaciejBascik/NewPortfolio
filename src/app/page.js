@@ -1,113 +1,108 @@
+'use client'
+import Link from "next/link";
 import Image from "next/image";
-
-export default function Home() {
+function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <>
+    
+
+<main className="bg-[#11071F] font-customFont">
+
+  <div className="hero min-h-screen" id="hero" style={{backgroundImage: "url('https://i.postimg.cc/W3mfS3xn/Frame-1.png')"}}>
+    <div className="text-[19px] text-left tracking-[2%]  absolute bottom-[65%] ml-[40px]">
+      <p>Hello! I Am <span className="text-[#7127BA]">Maciej Baścik</span></p>
+      <img className="absolute right-[95%] bottom-[-250%] " src="https://i.postimg.cc/3N5DBXPy/Arrow.png"/> 
+
+    </div>
+    <div className=" flex items-center justify-center ">
+
+
+              <img className="w-[35%] mr-2" src="https://i.postimg.cc/FHtnL8Wm/Me.png"/>
+        <div className="max-w-[40%] ">
+        <p className="text-[17px] text-left tracking-[2%] underline">A Developer who</p>
+        <h1 className="leading-[126.7%] tracking-[2%] text-[50px] text-white ">Make sure the UI is <span className="text-[#7127BA]">intuitive</span>...</h1>
+        <p className="text-[12px] text-left mt-[20px]">Because if my mom can’t use it, i’ve failed.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" className="hero min-h-screen bg py-20 ">
+<div className="justify-center items-center flex flex-row">
+  <div className="flex flex-col m-4 gap-4">
+        <div className="w-[60vh] h-[18vh] rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
+        <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
+        <div className="flex flex-row items-start">
+          <img className="ml-[10%] mt-[4%] w-[200px] h-[auto]" src="https://i.ibb.co/n864LLB/foto.png" />
+          <div className="p-12 pt-6">
+            <h1 className="text-[26px] text-left tracking-[2%] font-[500] font-[Poppins]">School</h1>
+            <p className="text-[8px] text-left tracking-[2%] font-[400] font-[Poppins]">My Education journey has been marked by high achievements, including the highest grades at computer science subjects. Through projects and collaborations, I've cultivated critical thinking and problem-solving skills essential for professional success.</p>
+          </div>
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+    <div className="w-[90vh] h-[22vh] rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
+        <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
+        <div className="flex flex-row items-start">
+          <img className="p-[5%] pl-[8%] w-[300px] h-[auto]" src="https://i.ibb.co/5hz8T1F/zaroa.png" />
+          <div className="p-[72px] pt-9 pl-5">
+            <h1 className="text-[39px] text-left tracking-[2%] font-[500] font-[Poppins]">Courses</h1>
+            <p className="text-[12px] text-left tracking-[2%] font-[400] font-[Poppins]">I have completed various courses to expand my skills and knowledge, covering both technical and soft skills. Notable courses include "Python from beginner to advanced", "NextJS crash course", and "React crash course", each of which contributes significantly to my professional development.</p>
+          </div>
+        </div>
+      </div>
+  
+  </div>
+  <div className="flex flex-col m-4 gap-4">
+      <div className="w-[60vh] h-[18vh] rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
+        <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
+        <div className="flex flex-row items-start">
+          <img className="ml-[10%] mt-[4%] w-[200px] h-[auto]" src="https://i.ibb.co/q7dtwRN/kubek.png" />
+          <div className="p-12 pt-6">
+            <h1 className="text-[26px] text-left tracking-[2%] font-[500] font-[Poppins]">Freelancing		</h1>
+            <p className="text-[8px] text-left tracking-[2%] font-[400] font-[Poppins]">I have improved my skills by taking on a diverse range of freelancing projects. My freelancing portfolio includes graphic design, web development and mixing engineering. My commitment to delivering high-quality work on time has helped me build a reputation for reliability and excellence in the freelance community.</p>
+          </div>
+        </div>
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className="w-[60vh] h-[18vh] rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
+        <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
+        <div className="flex flex-row items-start">
+          <img className="ml-[10%] mt-[4%] w-[200px] h-[auto]" src="https://i.ibb.co/zQqGfZk/majk.png" />
+          <div className="p-12 pt-6">
+            <h1 className="text-[26px] text-left tracking-[2%] font-[500] font-[Poppins]">Work</h1>
+            <p className="text-[8px] text-left tracking-[2%] font-[400] font-[Poppins]">My career includes a position at PapillonMedia, where I excelled in project management and fast task execution. Clients have distinguished me for my professionalism.</p>
+          </div>
+        </div>
       </div>
-    </main>
+        
+  </div>
+    </div>
+    </div>
+    
+
+
+
+  <div className="hero min-h-screen" id="signup"
+    style={{backgroundImage: 'url(https://i.ibb.co/gmbsT6L/Sign-up.png)', objectFit:"cover"}}>
+    <div className="text-center text-neutral-content items-center" >
+        <button className="btn btn-sm bg-transparent h-9 mb-2 text-[14px] hover:bg-transparent"
+          style={{color:"black"}}>Make your life easier </button>
+        <h1
+          className="mb-5  lg:text-[80px] md:text-[50px] sx:text-[45px] text-[47px] mx-[20px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#000000] to-[#001354]">
+          Join our community</h1>
+        <p
+          className="mb-5 md:mx-[180px] mx-[20px] lg:text-[22px]  md:text-[17px] sm:text-[18px] text-[18px]  text-transparent bg-clip-text bg-gradient-to-r from-[#000000] to-[#001354]">
+          Are you always on the lookout for the latest fashion trends? Join our community by signing up for our app and stay ahead of the curve! Our app is your ultimate destination for finding trending clothes effortlessly. Here&apos;s why you should sign up now:</p>
+          
+    </div>
+    
+  </div>
+
+</main>
+
+    </>
   );
 }
+export default Home;
