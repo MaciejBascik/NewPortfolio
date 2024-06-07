@@ -8,8 +8,8 @@ function Home() {
 
 <main className="bg-[#11071F] font-customFont">
 
-  <div className="hero min-h-screen" id="hero" style={{backgroundImage: "url('https://i.postimg.cc/W3mfS3xn/Frame-1.png')"}}>
-    <div className="text-[19px] text-left tracking-[2%]  absolute bottom-[65%] ml-[40px]">
+  <div className="hero min-h-[70vh]" id="hero" style={{backgroundImage: "url('https://i.postimg.cc/W3mfS3xn/Frame-1.png')"}}>
+    <div className="text-[19px] text-left tracking-[2%]  absolute bottom-[75%] ml-[80px]">
       <p>Hello! I Am <span className="text-[#7127BA]">Maciej Baścik</span></p>
       <img className="absolute right-[95%] bottom-[-250%] " src="https://i.postimg.cc/3N5DBXPy/Arrow.png"/> 
 
@@ -17,66 +17,74 @@ function Home() {
     <div className=" flex items-center justify-center ">
 
 
-              <img className="w-[35%] mr-2" src="https://i.postimg.cc/FHtnL8Wm/Me.png"/>
+        <img className="w-[35%] mr-2" src="https://i.postimg.cc/FHtnL8Wm/Me.png"/>
         <div className="max-w-[40%] ">
         <p className="text-[17px] text-left tracking-[2%] underline">A Developer who</p>
         <h1 className="leading-[126.7%] tracking-[2%] text-[50px] text-white ">Make sure the UI is <span className="text-[#7127BA]">intuitive</span>...</h1>
         <p className="text-[12px] text-left mt-[20px]">Because if my mom can’t use it, i’ve failed.</p>
       </div>
     </div>
+
   </div>
-
-  <div id="about" className="hero min-h-screen bg py-20 ">
-<div className="justify-center items-center flex flex-row">
-  <div className="flex flex-col m-4 gap-4">
-        <div className="w-[60vh] h-[18vh] rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
-        <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
-        <div className="flex flex-row items-start">
-          <img className="ml-[10%] mt-[4%] w-[200px] h-[auto]" src="https://i.ibb.co/n864LLB/foto.png" />
-          <div className="p-12 pt-6">
-            <h1 className="text-[26px] text-left tracking-[2%] font-[500] font-[Poppins]">School</h1>
-            <p className="text-[8px] text-left tracking-[2%] font-[400] font-[Poppins]">My Education journey has been marked by high achievements, including the highest grades at computer science subjects. Through projects and collaborations, I've cultivated critical thinking and problem-solving skills essential for professional success.</p>
+  <div className="flex items-center justify-center min-h-[30vh]">
+  <div className="max-w-[40%] ">
+    <h1 className="leading-[126.7%] tracking-[2%] text-[50px] text-white ">I'm a Software Engineer. </h1>
+    <p className="text-[18px] text-left tracking-[2%]">Currently, I'm a Software Engineer at <span className="text-[#7127BA]">PapillonMedia</span></p>
+    <p className="leading-[166.7%] text-[18px] text-left mt-[20px] font-[300]">A Computer Science Student, functioning in the industry for 1+ years now.
+    I make meaningful and delightful digital products that create an equilibrium between user needs and business goals. I am still improving and learning new things everyday to make my products perfect.</p>
+    </div>
+    </div>
+    
+  <div id="about" className="hero min-h-[100vh] w-[100%]" style={{backgroundImage: "url('https://i.ibb.co/1zC7WW1/Frame-1.png')"}}>
+  <div className="flex flex-col">
+    <div className="m-[2vh]">
+          <h1 className="leading-[126.7%] tracking-[2%] text-[35px] text-white justify-normal">Experience</h1>
+    </div>
+    <div className="justify-center items-center flex flex-row ">
+      <div className="flex flex-col m-4 gap-4">
+      <div className="w-[80vh] h-[22vh] rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
+          <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
+          <div className="flex flex-row items-start">
+            <img className="p-[5%] pl-[8%] w-[300px] h-[auto]" src="https://i.ibb.co/5hz8T1F/zaroa.png" />
+            <div className="p-[72px] pt-9 pl-5">
+              <h1 className="text-[39px] text-left tracking-[2%] font-[500] font-[Poppins]">Courses</h1>
+              <p className="text-[11px] text-left tracking-[2%] font-[400] font-[Poppins]">I have completed various courses to expand my skills and knowledge, covering both technical and soft skills. Notable courses include "Python from beginner to advanced", "NextJS crash course", and "React crash course", each of which contributes significantly to my professional development.</p>
+            </div>
           </div>
         </div>
-      </div>
-
-    <div className="w-[90vh] h-[22vh] rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
-        <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
-        <div className="flex flex-row items-start">
-          <img className="p-[5%] pl-[8%] w-[300px] h-[auto]" src="https://i.ibb.co/5hz8T1F/zaroa.png" />
-          <div className="p-[72px] pt-9 pl-5">
-            <h1 className="text-[39px] text-left tracking-[2%] font-[500] font-[Poppins]">Courses</h1>
-            <p className="text-[12px] text-left tracking-[2%] font-[400] font-[Poppins]">I have completed various courses to expand my skills and knowledge, covering both technical and soft skills. Notable courses include "Python from beginner to advanced", "NextJS crash course", and "React crash course", each of which contributes significantly to my professional development.</p>
+        <div className="w-[80vh] h-[22vh] rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
+          <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
+          <div className="flex flex-row items-start">
+            <img className="p-[5%] pl-[8%] w-[300px] h-[auto]" src="https://i.ibb.co/zQqGfZk/majk.png" />
+            <div className="p-[72px] pt-9 pl-5">
+              <h1 className="text-[39px] text-left tracking-[2%] font-[500] font-[Poppins]">Freelancing</h1>
+              <p className="text-[11px] text-left tracking-[2%] font-[400] font-[Poppins]">I have improved my skills by taking on a diverse range of freelancing projects. My freelancing portfolio includes graphic design, web development and mixing engineering. My commitment to delivering high-quality work on time has helped me build a reputation for reliability and excellence in the freelance community.</p>
+            </div>
           </div>
         </div>
-      </div>
-  
+    </div>
+    <div className="flex flex-col m-4 gap-4">
+        <div className="w-[80vh] h-[22vh] rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
+          <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
+          <div className="flex flex-row items-start">
+            <img className="p-[5%] pl-[8%] w-[300px] h-[auto]" src="https://i.ibb.co/n864LLB/foto.png" />
+            <div className="p-[72px] pt-9 pl-5">
+              <h1 className="text-[39px] text-left tracking-[2%] font-[500] font-[Poppins]">School		</h1>
+              <p className="text-[11px] text-left tracking-[2%] font-[400] font-[Poppins]">My Education journey has been marked by high achievements, including the highest grades at computer science subjects. Through projects and collaborations, I've cultivated critical thinking and problem-solving skills essential for professional success.</p>
+            </div>
+          </div>
+        </div>
+        <div className="w-[80vh] h-[22vh] rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
+          <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
+          <div className="flex flex-row items-start">
+            <img className="p-[5%] pl-[8%] w-[300px] h-[auto]" src="https://i.ibb.co/TWbMQRV/kubek.png" />
+            <div className="p-[72px] pt-9 pl-5">
+              <h1 className="text-[39px] text-left tracking-[2%] font-[500] font-[Poppins]">Work</h1>
+              <p className="text-[11px] text-left tracking-[2%] font-[400] font-[Poppins]">My career includes a position at PapillonMedia, where I excelled in project management and fast task execution. Clients have distinguished me for my professionalism.</p>
+            </div>
+          </div>
+        </div>
   </div>
-  <div className="flex flex-col m-4 gap-4">
-      <div className="w-[60vh] h-[18vh] rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
-        <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
-        <div className="flex flex-row items-start">
-          <img className="ml-[10%] mt-[4%] w-[200px] h-[auto]" src="https://i.ibb.co/q7dtwRN/kubek.png" />
-          <div className="p-12 pt-6">
-            <h1 className="text-[26px] text-left tracking-[2%] font-[500] font-[Poppins]">Freelancing		</h1>
-            <p className="text-[8px] text-left tracking-[2%] font-[400] font-[Poppins]">I have improved my skills by taking on a diverse range of freelancing projects. My freelancing portfolio includes graphic design, web development and mixing engineering. My commitment to delivering high-quality work on time has helped me build a reputation for reliability and excellence in the freelance community.</p>
-          </div>
-        </div>
-      </div>
-
-
-
-      <div className="w-[60vh] h-[18vh] rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
-        <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
-        <div className="flex flex-row items-start">
-          <img className="ml-[10%] mt-[4%] w-[200px] h-[auto]" src="https://i.ibb.co/zQqGfZk/majk.png" />
-          <div className="p-12 pt-6">
-            <h1 className="text-[26px] text-left tracking-[2%] font-[500] font-[Poppins]">Work</h1>
-            <p className="text-[8px] text-left tracking-[2%] font-[400] font-[Poppins]">My career includes a position at PapillonMedia, where I excelled in project management and fast task execution. Clients have distinguished me for my professionalism.</p>
-          </div>
-        </div>
-      </div>
-        
   </div>
     </div>
     </div>
