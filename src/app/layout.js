@@ -69,11 +69,6 @@ async function RootLayout({ children }) {
         <h6 className="footer-title">Developer</h6> 
         <a href="https://github.com/MaciejBascik" className="link link-hover">Maciej Baścik</a>
         </nav> 
-        <nav>
-        <h6 className="footer-title">Legal</h6> 
-        <a href="https://www.termsofservicegenerator.net/live.php?token=Q9aLbgeCrrtFGI5oEsUMV9AzE09i7soA" className="link link-hover ">Terms of use</a>
-        <a href="https://www.termsfeed.com/live/8dea4463-b798-4ba5-88e4-a091ce091e7c" className="link link-hover">Privacy policy</a>
-        </nav>
     </footer>
 
 

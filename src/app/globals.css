@@ -41,8 +41,24 @@ body {
 }
 
 
-.card {
-  background: linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%);
+.cardWrapper {
+  background-color: transparent;
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(271.36, 43%, 40%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, rgba(70,144,212,0.4), transparent 55%);
 }
 
+.card {
+  backdrop-filter: blur(25px) saturate(172%);
+  -webkit-backdrop-filter: blur(16px) saturate(172%);
+  background-color: transparent;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.sectionWrapper {
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(265.00, 63%, 7.000000000000001%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(273.16, 61%, 36%) 0, transparent 55%);
+}
 
