@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Portfolio | Maciej Baścik - Developer",
   description: "Portfolio | Maciej Baścik - Developer",
-  icon: 'logo.jpg',
+  icon: 'favicon.ico',
 
 };
 
