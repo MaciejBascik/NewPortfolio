@@ -12,22 +12,22 @@ function Home() {
 <div className="bg-[#11071F] font-customFont">
 
   <div className="hero sectionWrapper2 min-h-[50vh] md:min-h-[90vh] relative" id="hero">
-    <div className="text-[12px] md:text-[19px] text-left tracking-[2%]  absolute bottom-[75%] top-[10%] md:bottom-[75%] md:ml-[80px]">
-      <p>Hello! I Am <span className="text-[#7127BA]">Maciej Baścik</span></p>
-      <img className="w-[75%] bottom-[-90%] absolute md:right-[50%] md:bottom-[-80%] lg:right-[50%] lg:bottom-[-100%] lg:w-[100%]" src="https://i.postimg.cc/3N5DBXPy/Arrow.png"/> 
+    <div className="text-[12px] md:text-[19px] text-left tracking-[2%]  absolute bottom-[75%] top-[17%] md:bottom-[75%] md:ml-[80px]">
+      <p>Hello! I Am <span className="text-[#7127BA]">Maciej Bascik</span></p>
+      <img className="w-[45%] bottom-[-100%] absolute md:right-[70%] md:bottom-[-140%] lg:right-[50%] lg:bottom-[-75%] lg:w-[50%]" src="https://i.postimg.cc/3N5DBXPy/Arrow.png"/> 
 
     </div>
     <div className=" flex items-center justify-center ">
-        <img className="w-[40%] md:w-[35%] mr-2" src="https://i.postimg.cc/FHtnL8Wm/Me.png"/>
+        <img className="w-[50%] md:w-[35%] mr-2" src="https://i.postimg.cc/FHtnL8Wm/Me.png"/>
         <div className="max-w-[40%] ">
-        <p className="text-[11px] md:text-[19px] text-left tracking-[2%] underline">A Developer who</p>
+        <p className="text-[9px] md:text-[19px] text-left tracking-[2%] underline">A Developer who</p>
         <h1 className="leading-[126.7%] tracking-[2%] text-[25px] md:text-[50px] text-white ">Make sure the UI is <span className="text-[#7127BA]">intuitive</span>...</h1>
-        <p className="text-[13px] text-left mt-[20px]">Because if my mom can&apos;t use it, i&apos;ve failed.</p>
+        <p className="text-[10px] lg:text-[14px] text-left mt-[20px]">Because if my mom can&apos;t use it, i&apos;ve failed.</p>
       </div>
     </div>
 
   </div>
-  <div className="flex items-center justify-center min-h-[40vh] md:min-h-[50vh]">
+  <div className="flex items-center justify-center min-h-[50vh] md:min-h-[50vh]">
   <div className="max-w-[85%] md:max-w-[45%] ">
     <h1 className="leading-[126.7%] tracking-[2%] md:text-[25px] lg:text-[50px] text-[20px] text-white ">I&apos;m a Software Engineer. </h1>
     <p className="text-[10px] md:text-[13px] lg:text-[18px] text-left tracking-[2%]">Currently, I&apos;m a Software Engineer at <span className="text-[#7127BA]">PapillonMedia</span></p>
@@ -75,7 +75,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="card cardWrapper w-[42vh] h-[25vh] md:w-[80vh] md:h-[32.5vh] lg:w-[80vh] lg:h-[35.5vh] rounded-b-2xl rounded-t-[5px]">
+        <div className="card cardWrapper   w-[42vh] h-[25vh] md:w-[80vh] md:h-[32.5vh] lg:w-[80vh] lg:h-[35.5vh]  rounded-b-2xl rounded-t-[5px]">
           <div className=" bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
           <div className="flex flex-row items-start">
             <img className="hidden md:flex p-[5%] pl-[8%] w-[150px] md:w-[300px] h-[auto]" src="https://i.ibb.co/TWbMQRV/kubek.png" />
@@ -128,7 +128,7 @@ function Home() {
 
         </div>
       </div>
-      <img className="w-[100%] absolute z-0 bottom-[-5%] left-[125%] md:bottom-[-8vh] md:left-[100%] lg:bottom-[-30vh] lg:left-[100%] transform -translate-x-1/2" src="https://i.ibb.co/HD9VBQ6/Mask-group.png"/>
+      <img className="w-[100%] absolute z-0 bottom-[-5%] left-[125%] md:w-[100%] md:bottom-[-8vh] md:left-[100%] lg:bottom-[-30vh] lg:left-[100%] transform -translate-x-1/2" src="https://i.ibb.co/HD9VBQ6/Mask-group.png"/>
     </div>
     <div className="flex flex-row m-5 gap-4 justify-center align-middle items-center  z-0">
     <a href="https://viralclothes.vercel.app/"><GiClick className="text-[20px] md:text-[30px] lg:text-[35px]"  /></a>
@@ -163,7 +163,7 @@ function Home() {
           </p>
         </div>
       </div>
-      <img className="absolute z-0 bottom-[-5%] left-[-25%] md:bottom-[-5vh] md:left-[-10%] lg:bottom-[-25vh] lg:left-[-10%] transform -translate-x-1/2  w-[100%]" src="https://i.ibb.co/7zF3WJW/Portfolio.png"/>
+      <img className="absolute z-0 bottom-[-5%] left-[-25%] md:w-[100%] md:bottom-[-5vh] md:left-[-10%] lg:bottom-[-25vh] lg:left-[-10%] transform -translate-x-1/2  w-[100%]" src="https://i.ibb.co/7zF3WJW/Portfolio.png"/>
         </div>
     <div className="flex flex-row m-5 gap-4 justify-center align-middle items-center ml-auto">
       <a href="https://maciejbascik.github.io/SoundSwipe/"><GiClick className="text-[20px] md:text-[30px] lg:text-[35px]" /></a>
