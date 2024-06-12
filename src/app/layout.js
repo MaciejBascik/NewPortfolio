@@ -4,8 +4,8 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "ViralClothes | The best viral outfits for everyone",
-  description: "ViralClothes | The best viral outfits for everyone",
+  title: "Portfolio | Maciej Baścik - Developer",
+  description: "Portfolio | Maciej Baścik - Developer",
   icon: 'logo.jpg',
 
 };
