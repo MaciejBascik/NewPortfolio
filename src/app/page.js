@@ -22,15 +22,15 @@ function Home() {
         <div className="max-w-[40%] ">
         <p className="text-[11px] md:text-[17px] text-left tracking-[2%] underline">A Developer who</p>
         <h1 className="leading-[126.7%] tracking-[2%] text-[25px] md:text-[50px] text-white ">Make sure the UI is <span className="text-[#7127BA]">intuitive</span>...</h1>
-        <p className="text-[11px] text-left mt-[20px]">Because if my mom can’t use it, i’ve failed.</p>
+        <p className="text-[11px] text-left mt-[20px]">Because if my mom can&apos;t use it, i&apos;ve failed.</p>
       </div>
     </div>
 
   </div>
   <div className="flex items-center justify-center min-h-[40vh] md:min-h-[50vh]">
   <div className="max-w-[85%] md:max-w-[45%] ">
-    <h1 className="leading-[126.7%] tracking-[2%] md:text-[50px] text-[20px] text-white ">I'm a Software Engineer. </h1>
-    <p className="text-[10px] md:text-[18px] text-left tracking-[2%]">Currently, I'm a Software Engineer at <span className="text-[#7127BA]">PapillonMedia</span></p>
+    <h1 className="leading-[126.7%] tracking-[2%] md:text-[50px] text-[20px] text-white ">I&apos;m a Software Engineer. </h1>
+    <p className="text-[10px] md:text-[18px] text-left tracking-[2%]">Currently, I&apos;m a Software Engineer at <span className="text-[#7127BA]">PapillonMedia</span></p>
     <p className="text-[10px] leading-[166.7%] md:text-[18px] text-left mt-[20px] font-[300]">A Computer Science Student, functioning in the industry for 1+ years now.
     I make meaningful and delightful digital products that create an equilibrium between user needs and business goals. I am still improving and learning new things everyday to make my products perfect.</p>
     </div>
@@ -49,7 +49,7 @@ function Home() {
             <img className="hidden md:flex p-[5%] pl-[8%] w-[150px] md:w-[300px] h-[auto]" src="https://i.ibb.co/5hz8T1F/zaroa.png" />
             <div className="p-[72px] pt-9 pl-5">
               <h1 className="text-[20px] lg:text-[30px] xl:text-[35px] text-left tracking-[2%] font-[500] font-[Poppins]">Courses</h1>
-              <p className="text-[10px] lg:text-[9px] xl:text-[15px] text-left tracking-[2%] font-[400] font-[Poppins]">I have completed courses in "Python from Beginner to Advanced," "NextJS Crash Course," "React Crash Course," and earned the INF 03 qualification, significantly enhancing my skills and professional development.</p>
+              <p className="text-[10px] lg:text-[9px] xl:text-[15px] text-left tracking-[2%] font-[400] font-[Poppins]">I have completed courses in &quot;Python from Beginner to Advanced&quot;, &quot;NextJS Crash Course&quot;, &quot;React Crash Course&quot;, and earned the INF 03 qualification, significantly enhancing my skills and professional development.</p>
             </div>
           </div>
         </div>
@@ -95,8 +95,8 @@ function Home() {
     
     <div className="hero min-h-[70vh] md:min-h-[100vh] font-customFont" id="looking">
       <div className="flex  flex-col items-center justify-center ">
-      <p className="text-[13px] md:text-[24px] text-center tracking-[2%] font-[400] max-w-[100%]">I'm currently looking to join a <span className="text-[#7127BA]">cross-functional</span> team <br></br>
-      <span className="text-[9px] md:text-[17px] ">that values improving people's lives through accessible design</span> </p>
+      <p className="text-[13px] md:text-[24px] text-center tracking-[2%] font-[400] max-w-[100%]">I&apos;m currently looking to join a <span className="text-[#7127BA]">cross-functional</span> team <br></br>
+      <span className="text-[9px] md:text-[17px] ">that values improving people&apos;s lives through accessible design</span> </p>
           <img className="w-[100%] md:w-[80%] mt-3 md:mt-8" src="https://i.ibb.co/Y0FM4Fx/Skills.png"/>
       </div>
     </div>
@@ -183,8 +183,8 @@ function Home() {
       <p className="text-[18px]  md:text-[25px] text-left tracking-[2%] font-[200] max-w-[100%] font">
         Contact </p>
       <p className="text-[10px] md:text-[15px] text-left tracking-[2%] font-[200] max-w-[87%] md:max-w-[67%] mt-10 md:mt-20">
-        I'm currently looking to join a cross-functional team that values improving people's lives
-        through accessible design, or maybe you already have a project in mind? Let's connect. </p>
+        I&apos;m currently looking to join a cross-functional team that values improving people&apos;s lives
+        through accessible design, or maybe you already have a project in mind? Let&apos;s connect. </p>
       <p className="text-[10px] md:text-[15px] text-left tracking-[2%] font-[200] max-w-[87%] md:max-w-[67%] mt-5 md:mt-10">
         maciej.b4scik@gmail.com </p>
       <div className="flex  flex-row gap-3  mt-8">
