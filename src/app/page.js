@@ -43,7 +43,7 @@ function Home() {
     </div>
     <div className=" justify-center items-center flex flex-col md:flex-row ">
       <div className="flex flex-col m-4 gap-4 lg:gap-6 lg:m-10">
-      <div className="card cardWrapper w-[42vh] h-[25vh] md:w-[80vh] md:h-[30vh]  rounded-b-2xl rounded-t-[5px]" >
+      <div className="card cardWrapper w-[42vh] h-[25vh] md:w-[80vh] md:h-[35vh]  rounded-b-2xl rounded-t-[5px]" >
           <div className=" bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
           <div className="  flex flex-row items-start">
             <img className="hidden md:flex p-[5%] pl-[8%] w-[150px] md:w-[300px] h-[auto]" src="https://i.ibb.co/5hz8T1F/zaroa.png" />
@@ -53,7 +53,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="w-[42vh] h-[25vh] md:w-[80vh] md:h-[30vh]  rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
+        <div className="w-[42vh] h-[25vh] md:w-[80vh] md:h-[35vh]  rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
           <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
           <div className="flex flex-row items-start">
             <img className="hidden md:flex p-[5%] pl-[8%] w-[150px] md:w-[300px] h-[auto]" src="https://i.ibb.co/zQqGfZk/majk.png" />
@@ -65,7 +65,7 @@ function Home() {
         </div>
     </div>
     <div className=" flex flex-col  gap-4">
-        <div className=" w-[42vh] h-[25vh] md:w-[80vh] md:h-[30vh]  rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
+        <div className=" w-[42vh] h-[25vh] md:w-[80vh] md:h-[35vh]  rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
           <div className="  bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
           <div className="flex flex-row items-start">
             <img className="hidden md:flex p-[5%] pl-[8%] w-[150px] md:w-[300px] h-[auto]" src="https://i.ibb.co/n864LLB/foto.png" />
@@ -75,7 +75,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="card cardWrapper w-[42vh] h-[25vh] md:w-[80vh] md:h-[30vh]  rounded-b-2xl rounded-t-[5px]">
+        <div className="card cardWrapper w-[42vh] h-[25vh] md:w-[80vh] md:h-[35vh]  rounded-b-2xl rounded-t-[5px]">
           <div className=" bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
           <div className="flex flex-row items-start">
             <img className="hidden md:flex p-[5%] pl-[8%] w-[150px] md:w-[300px] h-[auto]" src="https://i.ibb.co/TWbMQRV/kubek.png" />
