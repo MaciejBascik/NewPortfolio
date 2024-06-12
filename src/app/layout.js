@@ -22,7 +22,7 @@ async function RootLayout({ children }) {
             </Link>
           </div>
 
-          <ul className="menu menu-horizontal px-2  text-[12px] md:text-[16px] gap-15 md:gap-20 md:mr-40 ">
+          <ul className="menu menu-horizontal px-2  text-[12px] md:text-[10px]  lg:text-[16px] gap-15 md:gap-18 lg:gap-20 md:mr-40 ">
             <li style={{color:"white"}}>
               <Link href="#">Home</Link>
             </li>
