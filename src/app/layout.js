@@ -6,13 +6,18 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Portfolio | Maciej Baścik - Developer",
   description: "Portfolio | Maciej Baścik - Developer",
-
+  keywords: ["Portfolio", "Maciej Baścik", "Developer", "IT job"],
 };
 
 async function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <head>
+      <meta property="og:title" content="Porfolio - Dev Maciej Baścik" />
+      <meta property="og:description" content="The best candidate for your job offer" />
+      <meta property="og:image" content="https://i.postimg.cc/FHtnL8Wm/Me.png" />
+      </head>
       <body className={inter.className}>
       <header className=" flex items-center justify-between bg-[#1A0B2E] ">
         <div className="navbar flex flex-col md:flex-row">
