@@ -62,3 +62,11 @@ body {
       radial-gradient(at 82% 65%, hsl(273.16, 61%, 36%) 0, transparent 55%);
 }
 
+.sectionWrapper2 {
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(265.00, 63%, 7.000000000000001%) 0, transparent 59%), 
+      radial-gradient(at 62% 35%, hsl(273, 61%, 36%) 0, transparent 55%);
+
+
+      
+}
