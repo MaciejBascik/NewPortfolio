@@ -188,8 +188,8 @@ function Home() {
       <p className="text-[10px] md:text-[15px] text-left tracking-[2%] font-[200] max-w-[87%] md:max-w-[67%] mt-5 md:mt-10">
         maciej.b4scik@gmail.com </p>
       <div className="flex  flex-row gap-3  mt-8">
-        <FaGithub className="text-[20px] md:text-[35px]"/>
-        <FaLinkedin className="text-[20px] md:text-[35px]"/>
+      <a href="https://github.com/MaciejBascik"><FaGithub className="text-[20px] md:text-[35px]"/></a>
+      <a href="https://www.linkedin.com/in/maciej-ba%C5%9Bcik-7148511b2/"><FaLinkedin className="text-[20px] md:text-[35px]"/></a>
       </div>
     </div>
 
