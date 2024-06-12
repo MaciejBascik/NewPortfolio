@@ -9,7 +9,7 @@ function Home() {
     <>
     
 
-<main className="bg-[#11071F] font-customFont">
+<div className="bg-[#11071F] font-customFont">
 
   <div className="hero sectionWrapper2 min-h-[50vh] md:min-h-[90vh] relative" id="hero">
     <div className="text-[12px] md:text-[19px] text-left tracking-[2%]  absolute bottom-[75%] top-[20%] md:bottom-[75%] md:ml-[80px]">
@@ -20,9 +20,9 @@ function Home() {
     <div className=" flex items-center justify-center ">
         <img className="w-[40%] md:w-[35%] mr-2" src="https://i.postimg.cc/FHtnL8Wm/Me.png"/>
         <div className="max-w-[40%] ">
-        <p className="text-[11px] md:text-[17px] text-left tracking-[2%] underline">A Developer who</p>
+        <p className="text-[11px] md:text-[19px] text-left tracking-[2%] underline">A Developer who</p>
         <h1 className="leading-[126.7%] tracking-[2%] text-[25px] md:text-[50px] text-white ">Make sure the UI is <span className="text-[#7127BA]">intuitive</span>...</h1>
-        <p className="text-[11px] text-left mt-[20px]">Because if my mom can&apos;t use it, i&apos;ve failed.</p>
+        <p className="text-[13px] text-left mt-[20px]">Because if my mom can&apos;t use it, i&apos;ve failed.</p>
       </div>
     </div>
 
@@ -195,7 +195,7 @@ function Home() {
 
   </div>
 
-</main>
+</div>
 
     </>
   );

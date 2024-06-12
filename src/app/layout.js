@@ -6,7 +6,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Portfolio | Maciej Baścik - Developer",
   description: "Portfolio | Maciej Baścik - Developer",
-  icon: 'favicon.ico',
 
 };
 
@@ -14,17 +13,7 @@ async function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <head>
-      <link
-  rel="icon"
-  href="favicon.ico"
-/>
-
-      </head>
-
-
       <body className={inter.className}>
-
       <header className=" flex items-center justify-between bg-[#1A0B2E] ">
         <div className="navbar flex flex-col md:flex-row">
           <div className="flex-1 justify-center align-middle items-center" >
@@ -35,28 +24,24 @@ async function RootLayout({ children }) {
 
           <ul className="menu menu-horizontal px-2  text-[12px] md:text-[16px] gap-15 md:gap-20 md:mr-40 ">
             <li style={{color:"white"}}>
-              <Link href="/">Home</Link>
+              <Link href="#">Home</Link>
             </li>
             <li style={{color:"white"}}>
-              <Link href="/#about">About</Link>
+              <Link href="#looking">About</Link>
             </li>
             <li style={{color:"white"}}>
-              <Link href="mailto:maciej.b4scik@gmail.com">Lab</Link>
+              <Link href="#projects">Lab</Link>
             </li>
             <li style={{color:"white"}}>
-              <Link href="mailto:maciej.b4scik@gmail.com">Contact</Link>
+              <Link href="#contact">Contact</Link>
             </li>
           </ul>
         </div>
 </header>
 
-        
+        <main>
         {children}
-
-
-
-
-
+        </main>
     </body>
     </html>
   );
