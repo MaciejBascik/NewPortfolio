@@ -59,7 +59,7 @@ function Home() {
             <img className="hidden md:flex p-[5%] pl-[8%] w-[150px] md:w-[300px] h-[auto]" src="https://i.ibb.co/zQqGfZk/majk.png" />
             <div className="p-[72px] pt-9 pl-5">
               <h1 className="text-[20px] lg:text-[30px] xl:text-[35px] text-left tracking-[2%] font-[500] font-[Poppins]">Freelancing</h1>
-              <p className="text-[10px] lg:text-[9px] xl:text-[15px] text-left tracking-[2%] font-[400] font-[Poppins]">I've honed skills in graphic design, web development, and mixing engineering through freelancing, earning a reputation for reliability and excellence by delivering high-quality work on time.</p>
+              <p className="text-[10px] lg:text-[9px] xl:text-[15px] text-left tracking-[2%] font-[400] font-[Poppins]">I&apos;ve honed skills in graphic design, web development, and mixing engineering through freelancing, earning a reputation for reliability and excellence by delivering high-quality work on time.</p>
             </div>
           </div>
         </div>
