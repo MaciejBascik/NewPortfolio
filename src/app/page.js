@@ -9,7 +9,7 @@ function Home() {
     <>
     
 
-<div className="bg-[#11071F] font-customFont">
+<div className="bg-[#11071F] font-customFont text-white">
 
   <div className="hero sectionWrapper2 min-h-[50vh] md:min-h-[90vh] relative" id="hero">
     <div className="text-[12px] md:text-[19px] text-left tracking-[2%]  absolute bottom-[75%] top-[17%] md:bottom-[75%] md:ml-[80px]">
