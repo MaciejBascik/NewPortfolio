@@ -22,7 +22,7 @@ Cześć! Nazywam się Maciej Bascik i jestem frontend developerem z wielkimi amb
 
 Projekt hostowany jest na Vercel, co umożliwia szybkie i łatwe wdrażanie oraz skalowanie aplikacji. Korzystając z Next.js, mogłem stworzyć wydajną aplikację z server-side renderingiem, co poprawia SEO i czas ładowania strony. DaisyUI, działający na bazie Tailwind CSS, pozwolił mi na szybkie i efektywne stylizowanie komponentów.
 
-## Link do Repozytorium
+## Kontakt
 
 Zapraszam do zapoznania się z moim portfolio i do kontaktu, jeśli macie jakiekolwiek pytania lub chcielibyście współpracować!
 
