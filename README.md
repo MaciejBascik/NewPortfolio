@@ -1,30 +1,31 @@
-# Portfolio Maciej Baścik - Frontend Developer
+# Resume Maciej Baścik - Frontend Developer
 
-Cześć! Nazywam się Maciej Bascik i jestem frontend developerem z wielkimi ambicjami. Chciałbym zaprezentować moje portfolio, które stworzyłem, aby pokazać moje umiejętności, doświadczenie i projekty, nad którymi pracowałem. To portfolio jest moją wizytówką, która ma na celu zainteresowanie potencjalnych pracodawców oraz współpracowników. Zależy mi na ciągłym rozwoju zawodowym i chcę pokazać, jak kreatywny i zaangażowany jestem w tworzenie nowoczesnych interfejsów użytkownika.
+Hello! My name is Maciej Bascik, and I am a frontend developer with great ambitions. I would like to present my portfolio, which I created to showcase my skills, experience, and the projects I have worked on. This portfolio is my business card, aimed at attracting potential employers and collaborators. I am committed to continuous professional development and want to demonstrate how creative and dedicated I am in creating modern user interfaces.
 
-## Technologie
+## Technologies
 
-- **HTML5**: Do budowy struktury i semantyki strony.
-- **CSS3 (Sass) + Tailwind**: Do stylizacji strony, z użyciem preprocesora Sass, aby lepiej organizować kod.
-- **Next.js**: Do tworzenia aplikacji typu server-side rendered oraz statycznych stron.
-- **DaisyUI**: Do stylizacji komponentów z użyciem Tailwind CSS.
-- **Vercel**: Do hostingu i zarządzania wdrożeniami aplikacji.
-- **Git**: Do kontroli wersji kodu.
-- **GitHub**: Do hostowania kodu źródłowego i zarządzania projektami.
+- **HTML5**: For building the structure and semantics of the website.
+- **CSS3 (Sass) + Tailwind**: For styling the website, using the Sass preprocessor to better organize the code.
+- **Next.js**: For creating server-side rendered and static web applications.
+- **DaisyUI**: For styling components using Tailwind CSS.
+- **Vercel**: For hosting and managing application deployments.
+- **Git**: For version control.
+- **GitHub**: For hosting the source code and project management.
 
-## Funkcjonalności Portfolio
+## Portfolio Features
 
-- **Strona główna**: Prezentacja mojej osoby
-- **Projekty**: Szczegółowy opis projektów, nad którymi pracowałem, z linkami do repozytoriów na GitHubie oraz działającymi wersjami aplikacji.
-- **Kontakt**: Formularz kontaktowy oraz linki do moich profili na mediach społecznościowych.
+- **Home Page**: An introduction to myself.
+- **Projects**: Detailed descriptions of the projects I have worked on, with links to GitHub repositories and live versions of the applications.
+- **Contact**: A contact form and links to my social media profiles.
 
-## Jak wdrożyłem projekt
+## How I Implemented the Project
 
-Projekt hostowany jest na Vercel, co umożliwia szybkie i łatwe wdrażanie oraz skalowanie aplikacji. Korzystając z Next.js, mogłem stworzyć wydajną aplikację z server-side renderingiem, co poprawia SEO i czas ładowania strony. DaisyUI, działający na bazie Tailwind CSS, pozwolił mi na szybkie i efektywne stylizowanie komponentów.
+The project is hosted on Vercel, allowing for quick and easy deployments and scaling of the application. By using Next.js, I was able to create an efficient application with server-side rendering, which improves SEO and page load times. DaisyUI, built on top of Tailwind CSS, enabled me to style components quickly and effectively.
 
-## Kontakt
+## Contact
 
-Zapraszam do zapoznania się z moim portfolio i do kontaktu, jeśli macie jakiekolwiek pytania lub chcielibyście współpracować!
+Feel free to explore my portfolio and get in touch if you have any questions or if you would like to collaborate!
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
