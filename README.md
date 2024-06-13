@@ -1,3 +1,32 @@
+# Portfolio Maciej Baścik - Frontend Developer
+
+Cześć! Nazywam się Maciej Bascik i jestem frontend developerem z wielkimi ambicjami. Chciałbym zaprezentować moje portfolio, które stworzyłem, aby pokazać moje umiejętności, doświadczenie i projekty, nad którymi pracowałem. To portfolio jest moją wizytówką, która ma na celu zainteresowanie potencjalnych pracodawców oraz współpracowników. Zależy mi na ciągłym rozwoju zawodowym i chcę pokazać, jak kreatywny i zaangażowany jestem w tworzenie nowoczesnych interfejsów użytkownika.
+
+## Technologie
+
+- **HTML5**: Do budowy struktury i semantyki strony.
+- **CSS3 (Sass) + Tailwind**: Do stylizacji strony, z użyciem preprocesora Sass, aby lepiej organizować kod.
+- **Next.js**: Do tworzenia aplikacji typu server-side rendered oraz statycznych stron.
+- **DaisyUI**: Do stylizacji komponentów z użyciem Tailwind CSS.
+- **Vercel**: Do hostingu i zarządzania wdrożeniami aplikacji.
+- **Git**: Do kontroli wersji kodu.
+- **GitHub**: Do hostowania kodu źródłowego i zarządzania projektami.
+
+## Funkcjonalności Portfolio
+
+- **Strona główna**: Prezentacja mojej osoby
+- **Projekty**: Szczegółowy opis projektów, nad którymi pracowałem, z linkami do repozytoriów na GitHubie oraz działającymi wersjami aplikacji.
+- **Kontakt**: Formularz kontaktowy oraz linki do moich profili na mediach społecznościowych.
+
+## Jak wdrożyłem projekt
+
+Projekt hostowany jest na Vercel, co umożliwia szybkie i łatwe wdrażanie oraz skalowanie aplikacji. Korzystając z Next.js, mogłem stworzyć wydajną aplikację z server-side renderingiem, co poprawia SEO i czas ładowania strony. DaisyUI, działający na bazie Tailwind CSS, pozwolił mi na szybkie i efektywne stylizowanie komponentów.
+
+## Link do Repozytorium
+
+Zapraszam do zapoznania się z moim portfolio i do kontaktu, jeśli macie jakiekolwiek pytania lub chcielibyście współpracować!
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
