@@ -1,3 +1,33 @@
+# Resume Maciej Baścik - Frontend Developer
+
+Hello! My name is Maciej Bascik, and I am a frontend developer with great ambitions. I would like to present my portfolio, which I created to showcase my skills, experience, and the projects I have worked on. This portfolio is my business card, aimed at attracting potential employers and collaborators. I am committed to continuous professional development and want to demonstrate how creative and dedicated I am in creating modern user interfaces.
+
+## Technologies
+
+- **HTML5**: For building the structure and semantics of the website.
+- **CSS3 (Sass) + Tailwind**: For styling the website, using the Sass preprocessor to better organize the code.
+- **Next.js**: For creating server-side rendered and static web applications.
+- **DaisyUI**: For styling components using Tailwind CSS.
+- **Vercel**: For hosting and managing application deployments.
+- **Git**: For version control.
+- **GitHub**: For hosting the source code and project management.
+
+## Portfolio Features
+
+- **Home Page**: An introduction to myself.
+- **Projects**: Detailed descriptions of the projects I have worked on, with links to GitHub repositories and live versions of the applications.
+- **Contact**: A contact form and links to my social media profiles.
+
+## How I Implemented the Project
+
+The project is hosted on Vercel, allowing for quick and easy deployments and scaling of the application. By using Next.js, I was able to create an efficient application with server-side rendering, which improves SEO and page load times. DaisyUI, built on top of Tailwind CSS, enabled me to style components quickly and effectively.
+
+## Contact
+
+Feel free to explore my portfolio and get in touch if you have any questions or if you would like to collaborate!
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
