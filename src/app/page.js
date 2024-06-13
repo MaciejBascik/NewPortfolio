@@ -133,7 +133,7 @@ function Home() {
     <div className="flex flex-row m-5 gap-4 justify-center align-middle items-center  z-0">
     <a href="https://viralclothes.vercel.app/"><GiClick className="text-[20px] md:text-[30px] lg:text-[35px]"  /></a>
     <p className="text-[10px] md:text-[13px] lg:text-[18px]  text-left tracking-[2%] max-w-[100%] text-[#CCD6F6]">Demo</p>
-    <a href="https://maciejbascik.github.io/SoundSwipe/"><GiClick className="text-[20px] md:text-[30px] lg:text-[35px]"/></a>
+    <a href="https://github.com/MaciejBascik/ViralClothes"><GiClick className="text-[20px] md:text-[30px] lg:text-[35px]"/></a>
     <p className="text-[10px] md:text-[13px] lg:text-[18px] text-left tracking-[2%] max-w-[100%] text-[#CCD6F6]">Github</p>
     </div>
 
@@ -186,7 +186,7 @@ function Home() {
         I&apos;m currently looking to join a cross-functional team that values improving people&apos;s lives
         through accessible design, or maybe you already have a project in mind? Let&apos;s connect. </p>
       <p className="text-[10px] md:text-[15px] text-left tracking-[2%] font-[200] max-w-[87%] md:max-w-[67%] mt-5 md:mt-10">
-        maciej.b4scik@gmail.com </p>
+      <a href="mailto:maciej.b4scik@gmail.com">maciej.b4scik@gmail.com</a></p>
       <div className="flex  flex-row gap-3  mt-8">
       <a href="https://github.com/MaciejBascik"><FaGithub className="text-[20px] md:text-[35px]"/></a>
       <a href="https://www.linkedin.com/in/maciej-ba%C5%9Bcik-7148511b2/"><FaLinkedin className="text-[20px] md:text-[35px]"/></a>
