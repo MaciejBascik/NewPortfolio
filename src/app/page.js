@@ -12,9 +12,9 @@ function Home() {
 <div className="bg-[#11071F] font-customFont text-white">
 
   <div className="hero sectionWrapper2 min-h-[50vh] md:min-h-[90vh] relative" id="hero">
-    <div className="text-[12px] md:text-[19px] text-left tracking-[2%]  absolute bottom-[75%] top-[17%] md:bottom-[75%] md:ml-[80px]">
+    <div className="text-[12px] md:text-[19px] text-left tracking-[2%]  absolute bottom-[75%] top-[17%] md:bottom-[75%] md:ml-[80px] 3xl:bottom-[75%] 3xl:mt-[50px] ">
       <p>Hello! I Am <span className="text-[#7127BA]">Maciej Bascik</span></p>
-      <img className="w-[45%] bottom-[-100%] absolute md:right-[70%] md:bottom-[-140%] lg:right-[50%] lg:bottom-[-75%] lg:w-[50%]" src="https://i.postimg.cc/3N5DBXPy/Arrow.png"/> 
+      <img className="w-[45%] bottom-[-100%] absolute md:right-[70%] md:bottom-[-140%] lg:right-[70%] lg:bottom-[-130%] lg:w-[50%] 3xl:right-[80%] 3xl:bottom-[-650%] 3xl:w-[50%]" src="https://i.postimg.cc/3N5DBXPy/Arrow.png"/> 
 
     </div>
     <div className=" flex items-center justify-center ">
@@ -43,45 +43,42 @@ function Home() {
     </div>
     <div className=" justify-center items-center flex flex-col md:flex-col lg:flex-row ">
       <div className="flex flex-col m-4 gap-4 lg:gap-6 lg:m-10">
-      <div className="card cardWrapper w-[42vh] h-[27vh] md:w-[80vh] md:h-[32.5vh] lg:w-[80vh] lg:h-[35.5vh]  rounded-b-2xl rounded-t-[5px]" >
-          <div className=" bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
-          <div className="  flex flex-row items-start">
+      <div className="card cardWrapper w-[42vh] h-[27vh] md:w-[80vh] md:h-[32.5vh] lg:w-[80vh] lg:h-[35.5vh]  3xl:h-[30vh]  rounded-b-2xl rounded-t-[5px]" >
+
+          <div className="flex flex-row items-start">
             <img className="hidden md:flex p-[5%] pl-[8%] w-[150px] md:w-[300px] h-[auto]" src="https://i.ibb.co/5hz8T1F/zaroa.png" />
             <div className="p-[72px] pt-9 pl-5">
-              <h1 className="text-[20px] lg:text-[30px] xl:text-[35px] text-left tracking-[2%] font-[500] font-[Poppins]">Courses</h1>
-              <p className="mt-5 text-[10px] md:text-[11px] lg:text-[9px] xl:text-[15px] text-left tracking-[2%] font-[400] font-[Poppins]">I have completed courses in &quot;Python from Beginner to Advanced&quot;, &quot;NextJS Crash Course&quot;, &quot;React Crash Course&quot;, and earned the INF 03 qualification, significantly enhancing my skills and professional development.</p>
+              <h1 className="text-[20px] lg:text-[30px] 3xl:text-[35px] text-left tracking-[2%] font-[500] font-[Poppins]">Courses</h1>
+              <p className="mt-3 3xl:mt-8 text-[10px] md:text-[11px] lg:text-[13px] 3xl:text-[15px] text-left tracking-[2%] font-[400] font-[Poppins]">I have completed courses in &quot;Python from Beginner to Advanced&quot;, &quot;NextJS Crash Course&quot;, &quot;React Crash Course&quot;, and earned the INF 03 qualification, significantly enhancing my skills and professional development.</p>
             </div>
           </div>
         </div>
-        <div className="w-[42vh] h-[27vh] md:w-[80vh] md:h-[32.5vh] lg:w-[80vh] lg:h-[35.5vh]  rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
-          <div className="bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
-          <div className="flex flex-row items-start">
+        <div className="card cardWrapper w-[42vh] h-[27vh] md:w-[80vh] md:h-[32.5vh] lg:w-[80vh] lg:h-[35.5vh]  3xl:h-[30vh] rounded-b-2xl rounded-t-[5px]" >
+            <div className="flex flex-row items-start">
             <img className="hidden md:flex p-[5%] pl-[8%] w-[150px] md:w-[300px] h-[auto]" src="https://i.ibb.co/zQqGfZk/majk.png" />
             <div className="p-[72px] pt-9 pl-5">
-              <h1 className="text-[20px] lg:text-[30px] xl:text-[35px] text-left tracking-[2%] font-[500] font-[Poppins]">Freelancing</h1>
-              <p className="mt-5 text-[10px] md:text-[11px] lg:text-[9px] xl:text-[15px] text-left tracking-[2%] font-[400] font-[Poppins]">I&apos;ve honed skills in graphic design, web development, and mixing engineering through freelancing, earning a reputation for reliability and excellence by delivering high-quality work on time.</p>
+              <h1 className="text-[20px] lg:text-[30px] 3xl:text-[35px] text-left tracking-[2%] font-[500] font-[Poppins]">Freelancing</h1>
+              <p className="mt-3 3xl:mt-8 text-[10px] md:text-[11px] lg:text-[13px] 3xl:text-[15px] text-left tracking-[2%] font-[400] font-[Poppins]">I&apos;ve honed skills in graphic design, web development, and mixing engineering through freelancing, earning a reputation for reliability and excellence by delivering high-quality work on time.</p>
             </div>
           </div>
         </div>
     </div>
     <div className=" flex flex-col  gap-4">
-        <div className=" w-[42vh] h-[27vh] md:w-[80vh] md:h-[32.5vh] lg:w-[80vh] lg:h-[35.5vh]  rounded-b-2xl rounded-t-[5px]" style={{ background: "linear-gradient(110.491deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)" }}>
-          <div className="  bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
-          <div className="flex flex-row items-start">
+        <div className="card cardWrapper w-[42vh] h-[27vh] md:w-[80vh] md:h-[32.5vh] lg:w-[80vh] lg:h-[35.5vh]  3xl:h-[30vh] rounded-b-2xl rounded-t-[5px]">
+               <div className="flex flex-row items-start">
             <img className="hidden md:flex p-[5%] pl-[8%] w-[150px] md:w-[300px] h-[auto]" src="https://i.ibb.co/n864LLB/foto.png" />
             <div className="p-[72px] pt-9 pl-5">
-              <h1 className="text-[20px] lg:text-[30px] xl:text-[35px] text-left tracking-[2%] font-[500] font-[Poppins]">School</h1>
-              <p className="mt-5 text-[10px] md:text-[11px] lg:text-[9px] xl:text-[15px] text-left tracking-[2%] font-[400] font-[Poppins]">My education includes top grades in computer science and has developed my critical thinking and problem-solving skills through various projects and collaborations.</p>
+              <h1 className="text-[20px] lg:text-[30px] 3xl:text-[35px] text-left tracking-[2%] font-[500] font-[Poppins]">School</h1>
+              <p className="mt-3 3xl:mt-8 text-[10px] md:text-[11px] lg:text-[13px] 3xl:text-[15px] text-left tracking-[2%] font-[400] font-[Poppins]">My education includes top grades in computer science and has developed my critical thinking and problem-solving skills through various projects and collaborations.</p>
             </div>
           </div>
         </div>
-        <div className="card cardWrapper   w-[42vh] h-[27vh] md:w-[80vh] md:h-[32.5vh] lg:w-[80vh] lg:h-[35.5vh]  rounded-b-2xl rounded-t-[5px]">
-          <div className=" bg-[#4F228D] w-[100%] h-[5px] rounded-t-2xl"></div>
-          <div className="flex flex-row items-start">
+        <div className="card cardWrapper   w-[42vh] h-[27vh] md:w-[80vh] md:h-[32.5vh] lg:w-[80vh] lg:h-[35.5vh] 3xl:h-[30vh] rounded-b-2xl rounded-t-[5px]">
+            <div className="flex flex-row items-start">
             <img className="hidden md:flex p-[5%] pl-[8%] w-[150px] md:w-[300px] h-[auto]" src="https://i.ibb.co/TWbMQRV/kubek.png" />
             <div className="p-[72px] pt-9 pl-5">
-              <h1 className="text-[20px] lg:text-[30px] xl:text-[35px] text-left tracking-[2%] font-[500] font-[Poppins]">Work</h1>
-              <p className="mt-5 text-[10px] md:text-[11px] lg:text-[9px] xl:text-[15px] text-left tracking-[2%] font-[400] font-[Poppins]">My career includes a position at PapillonMedia, where I excelled in project management and fast task execution. Clients have distinguished me for my professionalism.</p>
+              <h1 className="text-[20px] lg:text-[30px] 3xl:text-[35px] text-left tracking-[2%] font-[500] font-[Poppins]">Work</h1>
+              <p className="mt-3 3xl:mt-5 text-[10px] md:text-[11px] lg:text-[13px] 3xl:text-[16px] text-left tracking-[2%] font-[400] font-[Poppins]">My career includes a position at PapillonMedia, where I excelled in project management and fast task execution. Clients have distinguished me for my professionalism.</p>
             </div>
           </div>
         </div>
