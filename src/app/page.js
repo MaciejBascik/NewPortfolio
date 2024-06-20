@@ -147,6 +147,7 @@ function Home() {
       <img  src="https://i.ibb.co/4FVh4Y5/Card.png"/>
       <img  src="https://i.ibb.co/4Z4btNT/es.png"/>
     </div>
+
     <p className="text-[17px] md:text-[34px] text-left tracking-[2%] max-w-[100%] text-[#CCD6F6] mb-5 font-semibold">SoundSwipe</p>
 
 
@@ -172,6 +173,41 @@ function Home() {
 
   </div>
 
+
+
+  <div className="flex  flex-col max-w-[80%] mr-[35%] md:max-w-[50%] md:mr-[20%]">
+    <p className="text-[8px] md:text-[16px] text-left tracking-[2%] max-w-[100%] text-[#9857D3] font-semibold">Featured  Project</p>
+    <div className="flex flex-row">
+    <p className="text-[17px] md:text-[34px] text-left tracking-[2%] max-w-[100%] text-[#CCD6F6] mb-5 font-semibold">Salad Delight UI</p>
+    <div className="w-[18.7px] h-[18.7px] md:w-[37.4px] md:h-[37.4px] flex flex-row mt-1 ml-2 md:mt-2 md:ml-3">
+      <img  src="https://i.ibb.co/4FVh4Y5/Card.png"/>
+      <img  src="https://i.ibb.co/JrzbcGF/Card2.png"/>
+    </div>
+    </div>
+
+
+    <div className="relative z-0 flex flex-row">
+      <div className="card relative z-10 w-[100%] md:w-[80%]">
+        <div className="cardWrapper p-3 md:p-5 lg:p-10 flex flex-row">
+          <p className="text-[9px] md:text-[13px] lg:text-[18px] text-left tracking-[2%] max-w-[100%] text-[#CCD6F6]">
+          Salad Delight UI is a React Native application showcasing a beautifully designed user interface for a salad ordering app. Explore various React Native components, navigation patterns, theming techniques, and responsive design principles implemented in this project. Ideal for developers looking to learn and explore React Native.
+          </p>
+
+        </div>
+      </div>
+      <img className="w-[100%] absolute z-0 bottom-[-5%] left-[125%] md:w-[100%] md:bottom-[-8vh] md:left-[100%] lg:bottom-[-10vh] lg:left-[100%] transform -translate-x-1/2" src="https://i.ibb.co/37MZn4v/Portfolio.png"/>
+    </div>
+    <div className="flex flex-row m-5 gap-4 justify-center align-middle items-center  z-0">
+    <a href="https://github.com/MaciejBascik/SaladDelightUI/assets/96304157/92460e9b-9a31-4a16-b411-482a727bb05d"><GiClick className="text-[20px] md:text-[30px] lg:text-[35px]"  /></a>
+    <p className="text-[10px] md:text-[13px] lg:text-[18px]  text-left tracking-[2%] max-w-[100%] text-[#CCD6F6]">Overview</p>
+    <a href="https://github.com/MaciejBascik/SaladDelightUI-ReactNative"><GiClick className="text-[20px] md:text-[30px] lg:text-[35px]"/></a>
+    <p className="text-[10px] md:text-[13px] lg:text-[18px] text-left tracking-[2%] max-w-[100%] text-[#CCD6F6]">Github</p>
+    </div>
+
+
+
+
+  </div>
 </div>
 
 
