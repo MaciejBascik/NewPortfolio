@@ -195,7 +195,7 @@ function Home() {
 
         </div>
       </div>
-      <img className="w-[80%] absolute z-0 bottom-[-5%] left-[125%] md:w-[100%] md:bottom-[-8vh] md:left-[100%] lg:bottom-[-10vh] lg:left-[100%] transform -translate-x-1/2" src="https://i.ibb.co/37MZn4v/Portfolio.png"/>
+      <img className="w-[90%] 3xl:w-[60%] absolute z-0 bottom-[-5%] left-[125%] md:w-[100%] md:bottom-[-8vh] md:left-[100%] lg:bottom-[-10vh] lg:left-[100%] transform -translate-x-1/2" src="https://i.ibb.co/37MZn4v/Portfolio.png"/>
     </div>
     <div className="flex flex-row m-5 gap-4 justify-center align-middle items-center  z-0">
     <a href="https://github.com/MaciejBascik/SaladDelightUI/assets/96304157/92460e9b-9a31-4a16-b411-482a727bb05d"><GiClick className="text-[20px] md:text-[30px] lg:text-[35px]"  /></a>
