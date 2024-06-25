@@ -21,7 +21,7 @@ function Home() {
         <img className="w-[50%] md:w-[35%] mr-2" src="https://i.postimg.cc/FHtnL8Wm/Me.png"/>
         <div className="max-w-[40%] ">
         <p className="text-[9px] md:text-[19px] text-left tracking-[2%] underline">A Developer who</p>
-        <h1 className="leading-[126.7%] tracking-[2%] text-[25px] md:text-[50px] text-white ">Make sure the UI is <span className="text-[#7127BA]">intuitive</span>...</h1>
+        <h1 className="leading-[126.7%] tracking-[2%] text-[25px] md:text-[50px] text-white ">Makes sure the UI is <span className="text-[#7127BA]">intuitive</span>...</h1>
         <p className="text-[10px] lg:text-[14px] text-left mt-[20px]">Because if my mom can&apos;t use it, i&apos;ve failed.</p>
       </div>
     </div>
