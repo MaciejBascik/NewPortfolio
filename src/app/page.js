@@ -190,12 +190,12 @@ function Home() {
       <div className="card relative z-10 w-[100%] md:w-[80%]">
         <div className="cardWrapper p-3 md:p-5 lg:p-10 flex flex-row">
           <p className="text-[9px] md:text-[13px] lg:text-[18px] text-left tracking-[2%] max-w-[100%] text-[#CCD6F6]">
-          Salad Delight UI is a React Native application showcasing a beautifully designed user interface for a salad ordering app. Explore various React Native components, navigation patterns, theming techniques, and responsive design principles implemented in this project. Ideal for developers looking to learn and explore React Native.
+          Salad Delight UI is a React Native application showcasing a beautifully designed user interface for a salad ordering app. Ideal for developers looking to learn and explore React Native.
           </p>
 
         </div>
       </div>
-      <img alt="appImage"  className="w-[90%] 3xl:w-[60%] absolute z-0 bottom-[-5%] left-[125%] md:w-[100%] md:bottom-[-8vh] md:left-[100%] lg:bottom-[-10vh] lg:left-[100%] transform -translate-x-1/2" src="https://i.ibb.co/37MZn4v/Portfolio.png"/>
+      <img alt="appImage"  className="w-[90%] 3xl:w-[60%] absolute z-0 bottom-[-5%] left-[125%] md:w-[90%] md:bottom-[-8vh] md:left-[100%] lg:bottom-[-10vh] lg:left-[100%] transform -translate-x-1/2" src="https://i.ibb.co/37MZn4v/Portfolio.png"/>
     </div>
     <div className="flex flex-row m-5 gap-4 justify-center align-middle items-center  z-0">
     <a href="https://github.com/MaciejBascik/SaladDelightUI/assets/96304157/92460e9b-9a31-4a16-b411-482a727bb05d"><GiClick className="text-[20px] md:text-[30px] lg:text-[35px]"  /></a>
@@ -227,16 +227,14 @@ function Home() {
       <div className="card relative z-10 w-[100%] md:w-[80%] ml-[auto]">
         <div className="cardWrapper p-3 md:p-5 lg:p-10 flex flex-row">
           <p className="text-[9px] md:text-[13px] lg:text-[18px] text-left tracking-[2%] max-w-[100%] text-[#CCD6F6]">
-          Our app is designed to help you achieve your personal and professional goals through a step-by-step roadmap and personalized action plan. Just like a personal coach, our AI-powered application breaks down your aspirations into manageable milestones and suggests specific actions to keep you moving forward. Whether you want to learn a new skill, advance in your career, or develop a new habit, our app provides a clear path to help you succeed.          </p>
+          App is designed to help you achieve your personal and professional goals through a step-by-step roadmap and personalized action plan. Just like a personal coach, our app provides a clear path to help you succeed.          </p>
         </div>
       </div>
       
-      <img alt="appImage" className="absolute z-0 left-[-25%] md:w-[100%] md:bottom-[-5vh] md:left-[-5%] lg:bottom-[-25vh] lg:left-[-10%] transform -translate-x-1/2  w-[90%] 3xl:w-[60%] absolute z-0 bottom-[-5%]  md:w-[30%] md:bottom-[-8vh] lg:bottom-[-10vh]" src="https://i.ibb.co/qNkgyJ3/image-removebg-preview.png"/>
+      <img alt="appImage" className="w-[25%] 3xl:w-[20%] absolute z-0 bottom-[-5%] left-[-20%] md:w-[27%] md:bottom-[-8vh] md:left-[100%] lg:bottom-[-10vh] lg:left-[-2%] transform -translate-x-1/2" src="https://i.ibb.co/qNkgyJ3/image-removebg-preview.png"/>
         </div>
     <div className="flex flex-row m-5 gap-4 justify-center align-middle items-center ml-auto">
-      <a href="https://maciejbascik.github.io/SoundSwipe/"><GiClick className="text-[20px] md:text-[30px] lg:text-[35px]" /></a>
-      <p className="text-[10px] md:text-[13px] lg:text-[18px] text-left tracking-[2%] max-w-[100%] text-[#CCD6F6]">Demo</p>
-      <a href="https://github.com/MaciejBascik/SoundSwipe"><GiClick className="text-[20px] md:text-[30px] lg:text-[35px]"/></a>
+      <a href="https://github.com/MaciejBascik/carrertrack"><GiClick className="text-[20px] md:text-[30px] lg:text-[35px]"/></a>
       <p className="text-[10px] md:text-[13px] lg:text-[18px] text-left tracking-[2%] max-w-[100%] text-[#CCD6F6]">Github</p>
     </div>
 
